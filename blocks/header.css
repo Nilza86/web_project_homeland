@@ -1,4 +1,5 @@
 .header {
+  width: 100%;
   max-width: 1280px;
   display: flex;
   flex-direction: column;
@@ -39,11 +40,13 @@
   width: 984px;
   height: 615px;
   max-width: 100%;
+  margin: 0 auto;
 }
 .header__section {
   max-width: 830px;
   color: #ffffff;
-  margin: 92px auto 92px 0;
+  /*margin: 92px auto 92px 0;*/
+  margin: 92px auto;
 }
 .header__section-title {
   font-family: "Inter";
